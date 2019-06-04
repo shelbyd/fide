@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
+fn main() -> Result<(), failure::Error> {
+    shell::cmd!("vim").run()?;
+    Ok(())
 }

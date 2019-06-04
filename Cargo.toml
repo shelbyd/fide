@@ -5,3 +5,5 @@ authors = ["Shelby Doolittle <shelby@shelbyd.com>"]
 edition = "2018"
 
 [dependencies]
+failure = "0.1.5"
+shell = { git = "https://github.com/shelbyd/rust-shell", rev = "341478729a14a95c11df2e7db836fff58f5ab55e" }
